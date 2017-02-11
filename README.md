@@ -8,6 +8,7 @@ Generate figures (here 72 dpi resolution):
 ```
 virtualenv venv
 source venv/bin/activate
+pip install -r requirements.txt
 cd plots
 python generate-figures.py 72
 ```
